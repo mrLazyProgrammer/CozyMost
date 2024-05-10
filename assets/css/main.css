@@ -23,7 +23,7 @@
   --color-1: #9ca7ad;
   --color-2: #e0dfdb;
   --color-3: #cdc3ba;
-  --color-default: #364d59;
+  --color-default: #w;
   --color-primary: #feb900;
   --color-secondary: #9ca7ad;
 }
@@ -67,10 +67,11 @@ h6 {
 section {
   padding: 80px 0;
   overflow: hidden;
+  background-color: var(--color-3);
 }
 
 .section-bg {
-  background-color: #f5f6f7;
+  background-color: VAR(--color-3);
 }
 
 .section-header {
@@ -567,7 +568,7 @@ section {
 }
 
 .get-started .php-email-form {
-  background: #fff;
+  background: var(--color-1);
   padding: 30px;
   height: 100%;
 }
@@ -1637,6 +1638,7 @@ section {
 .contact .info-item {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 20px 0 30px 0;
+  background-color: #fff;
 }
 
 .contact .info-item i {
@@ -1647,14 +1649,14 @@ section {
   height: 56px;
   font-size: 24px;
   line-height: 0;
-  color: var(--color-primary);
+  color: var(--color-1);
   border-radius: 50%;
-  border: 2px dotted #ffd565;
+  border: 2px dotted var(--color-1);
 }
 
 .contact .info-item h3 {
   font-size: 20px;
-  color: #6c757d;
+  color: var(--color-1);
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1664,12 +1666,13 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: var(--color-1);
   
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: var(--color-2);
+  background: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 30px;
 }
@@ -1740,7 +1743,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: var(--color-3);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1749,7 +1752,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(254, 185, 0, 0.8);
+  background: var(--color-1);
 }
 
 @keyframes animate-loading {
