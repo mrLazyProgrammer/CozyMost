@@ -23,7 +23,8 @@
   --color-1: #9ca7ad;
   --color-2: #e0dfdb;
   --color-3: #cdc3ba;
-  --color-default: #w;
+  --color-green: #5998a3;
+  --color-default: #364d59;
   --color-primary: #feb900;
   --color-secondary: #9ca7ad;
 }
@@ -127,7 +128,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.6); */
   position: absolute;
   inset: 0;
 }
@@ -545,7 +546,7 @@ section {
 
 .get-started .content h3 {
   font-size: 36px;
-  color: var(--color-secondary);
+  color: var(--color-green);
   font-weight: 600;
   margin-bottom: 25px;
   padding-bottom: 25px;
@@ -565,6 +566,8 @@ section {
 
 .get-started .content p {
   font-size: 14px;
+  color: var(--color-green);
+
 }
 
 .get-started .php-email-form {
@@ -1639,6 +1642,7 @@ section {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 20px 0 30px 0;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .contact .info-item i {
@@ -1649,14 +1653,14 @@ section {
   height: 56px;
   font-size: 24px;
   line-height: 0;
-  color: var(--color-1);
+  color: var(--color-primary);
   border-radius: 50%;
-  border: 2px dotted var(--color-1);
+  border: 2px dotted var(--color-primary);
 }
 
 .contact .info-item h3 {
   font-size: 20px;
-  color: var(--color-1);
+  color: var(--color-green);
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1666,7 +1670,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color: var(--color-1);
+  color: var(--color-green);
   
 }
 
@@ -1675,6 +1679,7 @@ section {
   background: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 30px;
+  border-radius: 10px;
 }
 
 .contact .php-email-form .form-group {
@@ -1731,19 +1736,24 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  border-color: var(--color-green);
 }
+
+
 
 .contact .php-email-form input {
   height: 44px;
 }
+.contact ::placeholder {
 
+  color: var(--color-green);
+}
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-3);
+  background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1752,7 +1762,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: var(--color-1);
+  background: var(--color-secondary);
 }
 
 @keyframes animate-loading {
