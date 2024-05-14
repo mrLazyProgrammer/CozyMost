@@ -1195,6 +1195,7 @@ section {
 .about .our-story {
   padding: 40px;
   background-color: #f5f6f7;
+  color: var(--color-green);
 }
 
 @media (min-width: 991px) {
@@ -1256,7 +1257,7 @@ section {
 }
 
 .about .about-img {
-  min-height: 600px;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -1936,7 +1937,7 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 30px;
   font-weight: 700;
   position: relative;
   font-family: "Paprika", system-ui;
@@ -2733,4 +2734,13 @@ section {
  padding-bottom: 20px;
  opacity: 0.5;
  margin-top: -30px;
+}
+
+.headingh3 .h3Home{
+  font-size: 36px;
+  color: var(--color-green);
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  position: relative;
 }
