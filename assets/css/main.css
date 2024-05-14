@@ -1937,7 +1937,7 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
   position: relative;
   font-family: "Paprika", system-ui;
@@ -2741,7 +2741,7 @@ section {
 }
 
 .headingh3 .h3Home{
-  font-size: 36px;
+  font-size: 30px;
   color: var(--color-green);
   font-weight: 600;
   margin-bottom: 25px;
