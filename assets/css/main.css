@@ -1959,14 +1959,19 @@ section {
 }
 
 @media (max-width: 768px) {
-  @media (max-width: 768px) {
-    .heading1 {
-      font-size: 25px !important;
-    }
-    .heading2{
-      font-size: 25px !important;
-    }
+  .heading1 {
+    font-size: 25px !important;
   }
+  .heading2{
+    font-size: 25px !important;
+  }
+  .headingh3 .h3Home {
+    margin-top: 25px;
+    position: relative;
+}
+.our-story{
+  margin-top: -25px;
+}
 }
 
 .hero .info p {
