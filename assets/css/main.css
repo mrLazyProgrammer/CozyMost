@@ -120,7 +120,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 140px 0 60px 0;
+  padding: 140px 0 60px 40%;
   min-height: 30vh;
   position: relative;
   background-size: cover;
@@ -1193,6 +1193,7 @@ section {
 }
 
 .about .our-story {
+  margin-top: 110px;
   padding: 40px;
   background-color: #f5f6f7;
   color: var(--color-green);
@@ -1261,6 +1262,8 @@ section {
   min-height: 443px;
   background-size: cover;
   background-position: center;
+  margin-top: 50px;
+  width: 56%;
 }
 
 @media (min-width: 992px) {
@@ -1911,7 +1914,7 @@ section {
   .about .about-img {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20px;
   }
 }
 
